@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Tilt Neon", cursive;
+    justify-content: center;
+    height: 90vh;
+    /* background-color:rgba(128, 128, 128, 0.5); */
+}
+
+h1 {
+    margin-bottom: 10vh;
+}
+
+label {
+    cursor: pointer;
+}
+
+img {
+    width: 25vw;
+}
+
+input[type="submit"] {
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+}
